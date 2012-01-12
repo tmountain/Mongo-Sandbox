@@ -1,0 +1,3 @@
+A quick and dirty hack to get replica sets and sharding going painlessly.
+
+To set things up, just run ./start.sh after settings a data source in fetch_mongo.sh.
