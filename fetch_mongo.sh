@@ -7,7 +7,7 @@
 #URL="http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.0.2.tgz"
 
 # Mongo 1.8 32-bit
-URL="http://fastdl.mongodb.org/linux/mongodb-linux-i686-1.8.4.tgz"
+#URL="http://fastdl.mongodb.org/linux/mongodb-linux-i686-1.8.4.tgz"
 
 # Mongo 1.8 64-bit
 #URL="http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-1.8.4.tgz"
