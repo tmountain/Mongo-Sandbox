@@ -1,3 +1,19 @@
 A quick and dirty hack to get replica sets and sharding going painlessly.
 
-To set things up, just run ./start.sh after settings a data source in fetch_mongo.sh.
+To set things up, just run ./start.sh after setting a data source in fetch_mongo.sh.
+
+Once the script is complete, you should have the following running:
+
+Mongos 1 (Port 27017)
+Mongod 1 (Port 30000) <- Primary
+Mongod 2 (Port 30001) <- Secondary
+Arbiter 1 (Port 40000)
+Config 1 (Port 50000)
+Config 2 (Port 50001)
+Config 3 (Port 50002)
+
+Data and logs are stored in /tmp/mongo_sandbox.
+Running ./reset.sh shuts everything down and removes /tmp/mongo_sandbox.
+
+Don't run this alongside a standard mongo install as it does a killall mongod
+to shut things down.
